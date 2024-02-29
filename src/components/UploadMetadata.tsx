@@ -58,8 +58,12 @@ export const UploadMetadata: FC = () => {
           <div className="mt-4 sm:grid sm:grid-cols-2 sm:gap-4">
             <div className="m-auto p-2">
               <div className="text-xl font-normal">IPFS provider token</div>
-              <p>Token used to upload your data to IPFS.</p>
-              <p>Currently only Web3.Storage supported.</p>
+              <p title="Token used to upload your data to IPFS.">
+  Token used to upload your data to IPFS.
+</p>
+<p title="Currently only Web3.Storage supported.">
+  Currently only Web3.Storage supported.
+</p>
               <p>
                 You can get one
                 <a
