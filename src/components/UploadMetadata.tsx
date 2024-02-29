@@ -57,22 +57,13 @@ export const UploadMetadata: FC = () => {
         <div>
           <div className="mt-4 sm:grid sm:grid-cols-2 sm:gap-4">
             <div className="m-auto p-2">
-            <div class="relative inline-block">
-  <div class="text-xl font-normal">IPFS provider token</div>
-  <div class="absolute bg-gray-800 text-white text-center py-2 px-4 rounded-lg shadow-md invisible opacity-0 transition duration-300 ease-in-out tooltip">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" viewBox="0 0 20 20" fill="currentColor">
-      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9 7a1 1 0 012 0v4a1 1 0 01-2 0V7zm1-3a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
-    </svg>
-    Token used to upload your data to IPFS.<br>
-    Currently only Web3.Storage supported.
-  </div>
-</div>
-
+              <div className="text-xl font-normal">IPFS provider token</div>
+            
               <p>
                 You can get one
                 <a
                   className="cursor-pointer font-medium text-purple-500 hover:text-indigo-500"
-                  href="https://web3.storage/tokens/"
+                  href="https://old.web3.storage/tokens/"
                   target="_blank"
                   rel="noreferrer"
                 >
