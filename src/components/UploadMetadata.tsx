@@ -128,7 +128,7 @@ export const UploadMetadata: FC = () => {
           <div className="mt-4 sm:grid sm:grid-cols-2 sm:gap-4">
             <div className="m-auto p-2">
               <div className="text-xl font-normal">Token symbol</div>
-              <p>{"Abbreviated name (e.g. Solana -> SOL)."}</p>
+              <p>{"(e.g. Solana -> SOL)"}</p>
             </div>
             <div className="m-auto p-2">
               <input
